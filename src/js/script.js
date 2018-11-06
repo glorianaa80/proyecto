@@ -11,7 +11,7 @@ const request = new XMLHttpRequest();
 request.addEventListener('load', function (event) {
   // Obtiene la respuesta.
   const response = event.target.response;
-  console.log(response[0]);
+  console.log(response);
   // Itera sobre los resultados y los agrega a la lista.
   // Variables que contiene la informacion de la API
   const itemResponseName = response[0].title;
