@@ -1,6 +1,66 @@
-/* Barra Buscadora */
+/* Generales */
+body{
+  font-family:'Titillium Web', sans-serif;
+}
 
+h1::before{
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: coral;
+  margin-bottom: 10px;
+  margin-right: 10px
+}
+
+h1::after{
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: coral;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+h3{
+  border-bottom: 2px solid coral;
+  width: 20%;
+}
+
+/* Final de Generales */
+
+/* titulo */
+.titulo{
+  font-size: 40px;
+  text-align:center;
+  margin-bottom:5%;
+}
+
+.titulo::before{
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: coral;
+  margin-bottom: 10px;
+  margin-right: 10px
+}
+
+.titulo::after{
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: coral;
+  margin-bottom: 10px;
+  margin-left: 10px
+}
+/* Fin titulo */
+
+/* Barra Buscadora */
 #buscador{
+  margin-right: 20%;
   padding-bottom: 2%;
   display: inline-block;
   float: right;
@@ -12,7 +72,7 @@ form{
 
 fieldset{
   background-color: #fff;
-  border: 1px solid #333;
+  border: 1px solid coral;
   border-radius: 5px;
 }
 
@@ -24,7 +84,7 @@ input, button{
 }
 
 input{
-  color: #666;
+  color: black;
   border: none;
 }
 
@@ -36,9 +96,19 @@ button{
 
 /* Sidebar */
 #sidebar{
-  width: 50%;
+  width: 45%;
   height: 700px;
   overflow: scroll;
+  float: left;
+}
+
+#sidebar::-webkit-scrollbar{
+  width: 7px;
+}
+
+#sidebar::-webkit-scrollbar-thumb{
+  background-color: coral;
+  border-radius: 5px;
 }
 
 /* Tamaños de lña imagenes */
@@ -88,7 +158,8 @@ button{
   margin-bottom: 1%;
 }
 /* Final del Sidebar */
-
-.er{
+#informacion{
+  width: 45%;
   float: right;
+  margin-right: 5%;
 }
