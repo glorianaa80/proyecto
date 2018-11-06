@@ -1,0 +1,36 @@
+/* Project styles */
+
+form{
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+fieldset{
+  background-color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+input, button{
+  position: relative;
+  width: 200px;
+  height: 50px;
+  padding: 0;
+}
+
+input{
+  color: #666;
+  border: none;
+}
+
+button{
+  width: 60px;
+  border: none;
+}
+
+.prueba{
+  width: 30%;
+  height: 100%;
+  overflow: scroll;
+}
