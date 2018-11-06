@@ -1,9 +1,13 @@
-/* Project styles */
+/* Barra Buscadora */
+
+#buscador{
+  padding-bottom: 2%;
+  display: inline-block;
+  float: right;
+}
 
 form{
   width: 300px;
-  margin: 0 auto;
-
 }
 
 fieldset{
@@ -28,9 +32,63 @@ button{
   width: 60px;
   border: none;
 }
+/* Final Barra Buscadora */
 
-.prueba{
-  width: 30%;
-  height: 100%;
+/* Sidebar */
+#sidebar{
+  width: 50%;
+  height: 700px;
   overflow: scroll;
+}
+
+/* Tamaños de lña imagenes */
+.imagenes{
+  width: 50%;
+  height: 30%;
+}
+.imagenes2{
+  width: 53%;
+  height: 40%;
+}
+.imagenes3{
+  width: 53.5%;
+  height: 40%;
+}
+
+.imagenes4{
+  width: 51%;
+  height: 40%;
+}
+
+.imagenes5{
+  width: 56.5%;
+  height: 40%;
+}
+
+.imagenes6{
+  width: 54%;
+  height: 40%;
+}
+
+.imagenes7{
+  width: 50.5%;
+  height: 40%;
+}
+
+.imagenes8{
+  width: 56%;
+  height: 40%;
+}
+
+.cajas{
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid coral;
+  margin-bottom: 1%;
+}
+/* Final del Sidebar */
+
+.er{
+  float: right;
 }
